@@ -7,7 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1uorCbrpv_HfMIZoQrb8dRI6c7CI48fIM
 """
 
-pip install matplotlib
+pip install -r requirements.txt
+
 import streamlit as st
 
 import pandas as pd
