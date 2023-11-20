@@ -34,7 +34,7 @@ st.write("Visualizations")
 # In[17]:
 
 
-from sklearn import datasets
+
 
 
 # In[ ]:
@@ -68,6 +68,8 @@ a,b= get_dataset()
 
 import matplotlib.pyplot as plt
 import seaborn as sns
+github_url = 'https://raw.githubusercontent.com/SharmithaYazhini/python_lab13/main/cardio_train.csv'
+data = pd.read_csv(github_url, sep=';')
 
 
 # In[26]:
@@ -115,8 +117,7 @@ st.write("Though the overall data is from 30 years, we can notice that from 40 y
 # In[57]:
 
 
-github_url = 'https://raw.githubusercontent.com/SharmithaYazhini/python_lab13/main/cardio_train.csv'
-data = pd.read_csv(github_url, sep=';')
+
 
 
 # In[58]:
